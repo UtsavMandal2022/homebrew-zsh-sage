@@ -27,7 +27,7 @@ class ZshSage < Formula
 
       Import your existing history for instant suggestions:
 
-        zsh -c 'source #{opt_prefix}/zsh-sage.plugin.zsh && _sage_db_import_history'
+        zsh -ic '_sage_db_import_history'
 
       Optional AI suggestions (requires Anthropic API key):
 
