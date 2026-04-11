@@ -1,8 +1,8 @@
 class ZshSage < Formula
   desc "Intelligent zsh autosuggestions with multi-signal ranking"
   homepage "https://github.com/UtsavMandal2022/zsh-sage"
-  url "https://github.com/UtsavMandal2022/zsh-sage/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "4a6780f9465143ebd7602a14fcb0fd96febf614a496dc35bbf68842ee1255f93"
+  url "https://github.com/UtsavMandal2022/zsh-sage/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "21d5d56022e9937f3e817bb1177c50d9630406f2f601e493d8bf96d72dcf7af0"
   license "MIT"
 
   depends_on "sqlite"
