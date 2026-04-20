@@ -29,10 +29,9 @@ class ZshSage < Formula
 
         zsh -ic '_sage_db_import_history'
 
-      Optional AI suggestions (requires Anthropic API key):
+      Optional AI commands (requires Claude Code CLI):
 
-        export ZSH_SAGE_AI_ENABLED=true
-        export ZSH_SAGE_API_KEY="sk-your-key"
+        zsage ai
     EOS
   end
 
