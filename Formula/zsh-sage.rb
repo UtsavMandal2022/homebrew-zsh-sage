@@ -32,6 +32,12 @@ class ZshSage < Formula
       Optional AI commands (requires Claude Code CLI):
 
         zsage ai
+
+      After installing or upgrading, reload your shell to pick up changes:
+
+        source ~/.zshrc
+
+      (or open a new terminal window)
     EOS
   end
 
